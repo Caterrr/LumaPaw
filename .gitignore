@@ -1,0 +1,8 @@
+.DS_Store
+*.app/
+build/
+validation/
+__pycache__/
+*.zip
+*.mp4
+scripts/signing.json
