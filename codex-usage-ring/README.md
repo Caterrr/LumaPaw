@@ -25,7 +25,7 @@ node scripts/manage-macos.mjs install /Applications/ChatGPT.app
 node scripts/manage-macos.mjs status
 ```
 
-也可运行 `Install.command`，它会寻找上述两个常见应用路径。安装器只编译并 ad-hoc 签名自己的通用二进制，不签名宿主，不提供 Gatekeeper 绕过操作。
+也可在终端运行 `zsh Install.command`，它会寻找上述两个常见应用路径。GitHub 网页上传不保留可执行位，使用这里的 `node` 或 `zsh` 命令即可，无需调整系统安全设置。安装器只编译并 ad-hoc 签名自己的通用二进制，不签名宿主，不提供 Gatekeeper 绕过操作。
 
 安装文件在 `~/Library/Application Support/LumaPawUsageRing`，登录任务为：
 
