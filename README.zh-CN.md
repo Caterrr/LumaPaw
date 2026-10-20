@@ -36,3 +36,7 @@
 Release 中的 `LumaPaw-Demo.mp4` 是早期 v49 版本的 54 秒演示，不包含所有 v55 更新，使用应用渲染器和脚本交互输入制作，不是实时摄像头或麦克风录屏。
 
 `Sources/` 包含 55.0 版本的 Swift 代码和 Metal 着色器。大型运行资源包含在下载的应用中。构建方法和素材署名见[英文说明](README.md)。
+
+## Codex 头像额度圆环
+
+独立的可选头像额度功能见 [codex-usage-ring](codex-usage-ring/README.md)。取数使用官方 Codex CLI，通过本机调试连接显示圆环；Mac 部署已验证，Windows 仍为实验代码。上面的 LumaPaw 小狗应用保持原样。
