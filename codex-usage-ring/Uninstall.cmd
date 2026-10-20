@@ -1,2 +1,0 @@
-@echo off
-powershell.exe -NoProfile -File "%~dp0windows\manage.ps1" -Action Uninstall
