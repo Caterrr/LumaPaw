@@ -61,7 +61,3 @@ The build script reuses the downloaded app's resources and compiles the checked-
 - **OpenAI Codex** assisted development; it is not an in-app generative AI service.
 
 See `CREDITS.txt` in the app download for retained audio and asset attribution.
-
-## Codex usage ring
-
-An independent optional Codex avatar quota ring is available in [codex-usage-ring](codex-usage-ring/README.md). It uses the bundled official Codex CLI and a local-only debug connection; macOS deployment is validated, Windows remains experimental. The LumaPaw dog app above is unchanged.
